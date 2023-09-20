@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Color Tiles</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Titan+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="start.css">
+    </head>
+    <body>
+        <h1>COLOR TILES</h1>
+        <div id="name">
+            <label>Your Name:</label><br>
+            <input id="urName" placeholder="Name...">
+            <button id="next" onclick="next()">NEXT</button>
+        </div>
+        <div id="level">
+            <div class="easy" onclick="easy()">EASY MODE(5x5)</div>
+            <div class="hard" onclick="hard()">HARD MODE(6x6)</div>
+        </div>
+    </body>
+    <script>
+        function next(){
+            document.getElementById("name").style.display="none";
+            document.getElementById("level").style.display="block";
+        }
+        function easy(){
+            location.assign("normal.html");
+        }
+        function hard(){
+            location.assign("hacker.html")
+        }
+    </script>
+</html>

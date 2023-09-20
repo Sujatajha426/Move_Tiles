@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+h1{
+   background: -webkit-linear-gradient(rgb(243, 189, 189),rgb(214, 38, 91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Titan One', cursive;
+    padding-bottom: 10px;
+}
+hr{
+    color: azure;
+    background-color: azure;
+    width: 50%;
+    height: 0.7px; 
+}
+
+.wrapper{
+    max-width: 470px;
+    margin:10px auto;
+}
+
+.target{
+    margin: 20px auto;
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    row-gap: 6px;
+    column-gap: 6px;
+}
+
+.box{    
+    /* background-color: blanchedalmond; */
+    border-radius: 5px;
+}
+
+.container{
+    background-color: rgb(149, 202, 153);
+    padding: 9px;
+    height: 450px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: repeat(6 , 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+    
+.item{
+    /* background-color: blanchedalmond; */
+    border-radius: 5px;
+
+}
+
+#empty{
+    background-color: rgb(149, 202, 153);
+    border-radius: 5px;
+}
+
+.footer{
+    color:whitesmoke;
+    background-color: rgb(101, 151 , 91);
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.btn{
+    font-weight: bold;
+}
+.start{
+    text-align: center;
+}
+.start_btn{
+    margin:20px auto;
+    font-weight: bolder;  
+    font-size: 20px;  
+    padding:8px;
+    word-spacing: 3px;
+    color: black;
+    background-color: aqua;
+}
+.audio{
+    font-size: x-large;
+    color: magenta;
+}
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 0;
+    background-color: rgba(83, 99, 241, 0.63);
+    font-size: 60px;
+    font-family: 'Press Start 2P',Helvetica;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 180px;
+}
+
+.again{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px ;
+    padding: 10px;
+    word-spacing: 2px;
+}
+#i8,#i9,#i10,#i11,#i14,#i15,#i16,#i17,#i20,#i21,#i22,#i23,#i26,#i27,#i28,#i29{
+    border:3.5px black solid;
+}

@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(to top right,rgb(253, 197, 112),lightblue,pink,rgb(161, 224, 102));
+}
+h1{
+    font-family: 'Titan One', cursive;
+    font-size: 80px;
+    background: -webkit-linear-gradient(rgb(0, 128, 248),rgb(245, 0, 73));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:  center;
+    cursor: default;
+    margin-bottom: 13%;
+}
+#name{
+    font-size: 30px;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    color:rebeccapurple;
+    padding: 50px;
+    border-radius: 5px;
+    border: 5px purple solid;
+    background-color: lightgoldenrodyellow;
+    display: block;
+}
+#level{
+    display: none;
+}
+.easy, .hard{  
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Press Start 2P',Helvetica;
+    background-color: lightgrey;
+    border-radius: 4px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 4px 8px 10px grey;
+}
+#next{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px ;
+    padding: 10px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+/* @media (min-width:400px){
+    h1{
+        font-size: 50px;
+        
+    }
+    #name{
+        width: 50%;
+    }
+} */
